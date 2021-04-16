@@ -21,7 +21,6 @@ import org.json.simple.parser.ParseException;
 public class CandidatoService {
 
 
-
     public Geral converter() {
         LocalDateTime hoje = LocalDateTime.now();
         JSONParser parser = new JSONParser();
